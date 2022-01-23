@@ -1,0 +1,48 @@
+*		{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body	{
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+.cercle	{
+	width: 500px;
+	height: 500px;
+	background-image: linear-gradient(to right, deeppink, blue);
+	border: 3px solid black;
+	border-radius: 100%;
+	margin: 0 auto;
+	position: relative;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+.cercletwo	{
+	width: 98%;
+	height: 98%;
+	background-image: radial-gradient( white, cyan );
+	border-radius: 100%;
+	position: absolute;
+	border: 3px solid black;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1	{
+	font-family: arial;
+	font-size: 250%;
+	color: black;
+}
+
+a	{
+	text-decoration: none;
+	color: black;
+}
