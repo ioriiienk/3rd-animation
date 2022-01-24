@@ -26,7 +26,7 @@ body	{
 .cercletwo	{
 	width: 98%;
 	height: 98%;
-	background-image: radial-gradient( white, cyan );
+	background-image: conic-gradient( red, blue, yellow, green, purple, orange, cyan, red );
 	border-radius: 100%;
 	position: absolute;
 	border: 3px solid black;
